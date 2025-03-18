@@ -1,7 +1,7 @@
 "use client";
 import { createContext, useContext, useEffect, useRef, useState } from "react";
 
-interface PrintJob {
+export interface PrintJob {
   id: string;
   content: string;
   status: "pending" | "printing" | "done" | "cancelled";
